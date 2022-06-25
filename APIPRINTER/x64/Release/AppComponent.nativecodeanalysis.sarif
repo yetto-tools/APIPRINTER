@@ -1,0 +1,1276 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Type.hpp"
+                },
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 3,
+                  "endLine": 298,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::Void::{ctor}",
+                  "decoratedName": "??0Void@type@mapping@data@oatpp@@QEAA@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Type.hpp"
+                },
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 16,
+                  "endLine": 326,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::Void::=",
+                  "decoratedName": "??4Void@type@mapping@data@oatpp@@QEAAAEAV01234@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Primitive.hpp"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 3,
+                  "endLine": 121,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::String::{ctor}",
+                  "decoratedName": "??0String@type@mapping@data@oatpp@@QEAA@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Primitive.hpp"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 3,
+                  "endLine": 376,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::Boolean::{ctor}",
+                  "decoratedName": "??0Boolean@type@mapping@data@oatpp@@QEAA@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Primitive.hpp"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 3,
+                  "endLine": 376,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::Boolean::=",
+                  "decoratedName": "??4Boolean@type@mapping@data@oatpp@@QEAAAEAV01234@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::protocol::http::Range::end' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+                },
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 3,
+                  "endLine": 513,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::protocol::http::Range::{ctor}",
+                  "decoratedName": "??0Range@http@protocol@web@oatpp@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::protocol::http::Range::end"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::protocol::http::Range::start' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+                },
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 3,
+                  "endLine": 513,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::protocol::http::Range::{ctor}",
+                  "decoratedName": "??0Range@http@protocol@web@oatpp@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::protocol::http::Range::start"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::protocol::http::ContentRange::size' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+                },
+                "region": {
+                  "startLine": 545,
+                  "startColumn": 3,
+                  "endLine": 545,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::protocol::http::ContentRange::{ctor}",
+                  "decoratedName": "??0ContentRange@http@protocol@web@oatpp@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::protocol::http::ContentRange::size"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::protocol::http::ContentRange::isSizeKnown' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+                },
+                "region": {
+                  "startLine": 545,
+                  "startColumn": 3,
+                  "endLine": 545,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::protocol::http::ContentRange::{ctor}",
+                  "decoratedName": "??0ContentRange@http@protocol@web@oatpp@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::protocol::http::ContentRange::isSizeKnown"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::protocol::http::ContentRange::start' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+                },
+                "region": {
+                  "startLine": 545,
+                  "startColumn": 3,
+                  "endLine": 545,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::protocol::http::ContentRange::{ctor}",
+                  "decoratedName": "??0ContentRange@http@protocol@web@oatpp@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::protocol::http::ContentRange::start"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::protocol::http::ContentRange::end' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+                },
+                "region": {
+                  "startLine": 545,
+                  "startColumn": 3,
+                  "endLine": 545,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::protocol::http::ContentRange::{ctor}",
+                  "decoratedName": "??0ContentRange@http@protocol@web@oatpp@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::protocol::http::ContentRange::end"
+          }
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Type.hpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 3,
+                  "endLine": 176,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::ObjectWrapper<bool,oatpp::data::mapping::type::__class::Boolean>::{ctor}",
+                  "decoratedName": "??0?$ObjectWrapper@_NVBoolean@__class@type@mapping@data@oatpp@@@type@mapping@data@oatpp@@QEAA@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Type.hpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 3,
+                  "endLine": 176,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::data::mapping::type::ObjectWrapper<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,oatpp::data::mapping::type::__class::String>::{ctor}",
+                  "decoratedName": "??0?$ObjectWrapper@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VString@__class@type@mapping@data@oatpp@@@type@mapping@data@oatpp@@QEAA@$$QEAV01234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'oatpp::web::server::api::Endpoint::Info::ContentHints::schema' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/api/Endpoint.hpp"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 5,
+                  "endLine": 130,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "oatpp::web::server::api::Endpoint::Info::ContentHints::{ctor}",
+                  "decoratedName": "??0ContentHints@Info@Endpoint@api@server@web@oatpp@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "oatpp::web::server::api::Endpoint::Info::ContentHints::schema"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31106.2",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6373D9CC0 -il C:\\Users\\PAMERG01\\AppData\\Local\\Temp\\_CL_fcbe86b1ast -typedil -f AppComponent.hpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131106 -D_MSC_BUILD=2 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I C:\\oatpp\\include\\oatpp-1.3.0\\oatpp -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -DCODE_ANALYSIS -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DCMAKE_INTDIR=\"Release\" -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -GR -D_CPPRTTI -std:c++20 -permissive- -Fox64\\Release\\AppComponent.obj -Fdx64\\Release\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\PAMERG01\\Desktop\\MOD\\build\\APIPRINTER\\APIPRINTER\\APIPRINTER -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pamerg01/desktop/mod/build/apiprinter/apiprinter/apiprinter/utils..cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "abece4d1e4f9bc5432425b15bfe73932593619b508cd881884221b87d5811dd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pamerg01/desktop/mod/build/apiprinter/apiprinter/apiprinter/utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e9ea5f30f5f98547b7db7a2c444e2b9e033586744a68f75c9a9fd7ad06bb4e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Type.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8641bad51942a71d715a076ccb38246241bb866dfb067c4d6722c69e36868978"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/Primitive.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e86440a38a6b27cfaec33a42cab23dd20a5538af759f8e39f3369545d383aa4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/Http.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "31e6b6c04f40f62d97d97f206290fb1d2d27fa61e122c875a346913db9b9915c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/api/Endpoint.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2516048dbd905556512423ceb0758356ba9bcddee362d426e34f4169e3b6d8ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pamerg01/desktop/mod/build/apiprinter/apiprinter/apiprinter/mycontroller.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "104c3ae53e95d1d92c986b18f1463f91aa20d684cbe37574ef7b560e76f5e4db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pamerg01/desktop/mod/build/apiprinter/apiprinter/apiprinter/mycontroller.hpp"
+          },
+          "hashes": {
+            "sha-256": "f26900fc752650055485666b87fdd40a30b399dc9dafb7463471e5290bc1c784"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pamerg01/desktop/mod/build/apiprinter/apiprinter/apiprinter/mydtos.hpp"
+          },
+          "hashes": {
+            "sha-256": "c4aa9abe4b201a727a14b35fb6944cc111ac5fe0c10a5564dc80f68f379eab42"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/parser/json/mapping/objectmapper.hpp"
+          },
+          "hashes": {
+            "sha-256": "0c44824f1044afeb5313e0d6b4dc922f3bb65286239f2c1af028165c4d89c80c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/parser/json/mapping/serializer.hpp"
+          },
+          "hashes": {
+            "sha-256": "a6e3054fc6e409ac4b7ea742ce24e5b4c98b253b8d24a4d96280a89de802fb46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/parser/json/utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "f8c865bf438e898b901df8ea10e1c8d9ee33fc066de7632e92715511d07bd03b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/parser/caret.hpp"
+          },
+          "hashes": {
+            "sha-256": "a0a9779b19a04340779395590e6b070f69077aa8b284fa63a234bd7743f8b8d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "33621b7fd74ef49bee26fcb1b3b282b66c42ded67d1f6aa1080e712ae193b7f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/object.hpp"
+          },
+          "hashes": {
+            "sha-256": "dbca2e2940dc304f1a64cac54afae4096a44c1fc58159f3bdd297e6e89222c43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/base/countable.hpp"
+          },
+          "hashes": {
+            "sha-256": "6ad56cd58ae1cc14bea5aefa4f6465a5f17b86b313c480f912232289dee01898"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/base/environment.hpp"
+          },
+          "hashes": {
+            "sha-256": "13241831f16e2c3326de768a5d949d869c28d081afe431da51d433659741e841"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/base/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "31189b2afefd0fa368e56c494a249adb5cff6665adcde191a0a5d9662fcdd05d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/any.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ac793fefca1ef31c770ec4b2e56d717b031e3cc3aa59fef49095a192d2f94c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/enum.hpp"
+          },
+          "hashes": {
+            "sha-256": "db4d1f57c7afa7bf54b5c30396975d5d74c69e90f610d8b839a6dba227ae74c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/share/memorylabel.hpp"
+          },
+          "hashes": {
+            "sha-256": "5e289717d65dcf598d3ca740976b84a6016cad223406d9f2d8c7888640b5b9fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/utils/string.hpp"
+          },
+          "hashes": {
+            "sha-256": "cb9fbe254ec58741c68977503932762d4fb9f83fb0d37020d32b91b5eafb4de5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/unorderedmap.hpp"
+          },
+          "hashes": {
+            "sha-256": "d160e5cccf8d23065daf7ac3be4dc2b08034b7b9000fb58bf3f180863a961c6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/map.hpp"
+          },
+          "hashes": {
+            "sha-256": "25539149ccba35d2de7f5703a725cdb5eeedeaae308f9b5700b20588bed54b49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/pairlist.hpp"
+          },
+          "hashes": {
+            "sha-256": "6e905d49e5a9badefbc3b6640b3873cfecf6a88474cf41d6180bc5a64c3bfc35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/list.hpp"
+          },
+          "hashes": {
+            "sha-256": "c4cd7aa47b6a645670597ea72f2e0b6213f3cabc6c6622eb13319e04c2719063"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/collection.hpp"
+          },
+          "hashes": {
+            "sha-256": "30c132886fb8bffde66a04b4c2bd7415380ef8e336e90b6370ce0e780ce3a087"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/vector.hpp"
+          },
+          "hashes": {
+            "sha-256": "aa6b61162543d0ee313f223c1b3937946d608b1288d7531c7b2a2e681c1e5627"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/type/unorderedset.hpp"
+          },
+          "hashes": {
+            "sha-256": "41d410aeca8e165bb4eb7371d24ac237da8423bbb7d461fafbc1b0631f5d7faa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/parser/json/beautifier.hpp"
+          },
+          "hashes": {
+            "sha-256": "879179d1ffcb803fb11d650c2a2a81798c83dc4eaa4d3be047f600917a5ebb77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/stream/stream.hpp"
+          },
+          "hashes": {
+            "sha-256": "cf6634d796039164e403176740da2a95737180854701f6052e29ba66ab3d359d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/share/lazystringmap.hpp"
+          },
+          "hashes": {
+            "sha-256": "4bd73cbbf61f758dd76df64cfbf0092fd3e9f8b50d73b7edaaf063040c7b98fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/concurrency/spinlock.hpp"
+          },
+          "hashes": {
+            "sha-256": "37c4ec41bc28c3e1f6f9c6d77ac89e18fb6c85ee90306aaa0e0019cc9bc18871"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/async/coroutine.hpp"
+          },
+          "hashes": {
+            "sha-256": "8869e1da8926e794bfb97c923109f1234392713179ed495a4c1a163e4b389818"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/async/error.hpp"
+          },
+          "hashes": {
+            "sha-256": "53dd7eecbfbdc377e9359cb77322598f743c6c3080f16f323e722f275a82d5d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/async/utils/fastqueue.hpp"
+          },
+          "hashes": {
+            "sha-256": "5444f8c212941934ffbe0ec50cb81c13c62b73d37f4bb943fee72b88fe2fed20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/iodefinitions.hpp"
+          },
+          "hashes": {
+            "sha-256": "83bd6011e08c5da8d146c3cd7a6a73582fc39bc914fb497ccea831641909c8ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/buffer/iobuffer.hpp"
+          },
+          "hashes": {
+            "sha-256": "2127f949918d1bb4d1daac6e986214ad80805dff18a0f1bbd701e1478bebfe94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/buffer/processor.hpp"
+          },
+          "hashes": {
+            "sha-256": "df8cd2ba7de699432c19409c02731eee58b2a4c915e4e366934c08a59b03003b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/base/objecthandle.hpp"
+          },
+          "hashes": {
+            "sha-256": "647d2d29686a7cbe4c5ad04aa4e1158759de8c2d3c331c29d902f49974f13cf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/parser/json/mapping/deserializer.hpp"
+          },
+          "hashes": {
+            "sha-256": "e9a3a5a39c980fd5fa3848d805eefea433f3c71f0ab69a3ce3c4f776f477f3f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/mapping/objectmapper.hpp"
+          },
+          "hashes": {
+            "sha-256": "10c6be1317499a6c55e9f6907f2a47677c5e37e61cb5025e1fcabc9edd4e0014"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/parser/parsingerror.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e7c02fd84d1f8a6693fba3f7fd9ca7e4ed19356546338c773e881ce4180be94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/macro/codegen.hpp"
+          },
+          "hashes": {
+            "sha-256": "ce8a862f4e70ccd4b89ac3bf59f908b2fc301bedea7d2665322797d06e529af1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/macro/basic.hpp"
+          },
+          "hashes": {
+            "sha-256": "9496724358c7505fac5eb91fc8288f0cbaa544ec4d5c402af5b4ac35d1009207"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/dto_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "d3dffcf8528a4b4b3636998253dc724669ebf80ec489145b4d3553fcb2d02c72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/dto/base_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "655299c1b05441f9a94fdca3f2abdec624a6d918cbb787d0dff27993660aba88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/dto/enum_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "7cdbb11832ae1e6ccc78d74d35cc349da3555341d6a6a8f62ff9d8cf86efc532"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/dto_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "8b5ea8c2bf9e012dd21d9b4ffd4adab111a43ee718879971fa7d6838098aaea0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/dto/base_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "9b3fd1492694cb0b4fb814f08a829d0213a0b8077bc6d0476ecf56d365174c27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/dto/enum_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "199958eb7e1d6361cff9b946a07f150668f235f1b4f8f9cf38e7bec91370724a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/api/apicontroller.hpp"
+          },
+          "hashes": {
+            "sha-256": "949da292de4f517561bf77b416d33d4e471503f623f7272c1693704284bdf252"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/httprequesthandler.hpp"
+          },
+          "hashes": {
+            "sha-256": "d9215f5af77efc8abe03762dc6db11a8dbe39778e0592b8331b89ce9dc1486df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/outgoing/responsefactory.hpp"
+          },
+          "hashes": {
+            "sha-256": "28d362c3dbf65e27187d39c513616697cbc307d292d7f731b8d49083deca0254"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/outgoing/response.hpp"
+          },
+          "hashes": {
+            "sha-256": "db85257698c57fa59abc8d68116d7ebf60bf35296f7a392bce1fe60aa5989512"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/outgoing/body.hpp"
+          },
+          "hashes": {
+            "sha-256": "dfd48ea993680416fcf54bf27cb6990dd40b0c459cc8757c8729e61e2e2f0a00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/network/tcp/connection.hpp"
+          },
+          "hashes": {
+            "sha-256": "7483fdc11124a92d8067937f16f72675c3c74570ea25c33922104ab7c370ac98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/communicationerror.hpp"
+          },
+          "hashes": {
+            "sha-256": "3aa56d1e6954c13c12a0b58eb75e84a9331d8a17d4035836259f25ce677c48bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/encoding/encoderprovider.hpp"
+          },
+          "hashes": {
+            "sha-256": "294f77e5ae203de0a04e00dc831566b1818a046a15942cc5ba5aeb94ce565626"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/network/connectionhandler.hpp"
+          },
+          "hashes": {
+            "sha-256": "30710f9277adf92d30a341603175660eae9a63c7780596a062f7ffcd970fe176"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/provider/provider.hpp"
+          },
+          "hashes": {
+            "sha-256": "1434d30000f8b0f832235cbe994f76bfdc0eeb7e904461e7ece19126a6979df8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/provider/invalidator.hpp"
+          },
+          "hashes": {
+            "sha-256": "ee69b970533425251162a5791088a69da1f685653565439d4538a9b49fe93753"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/stream/bufferstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "f01971dcc93db94bd8fb962ddd8318c2ff6f43fab28aef268965d1d01f5928e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/bundle.hpp"
+          },
+          "hashes": {
+            "sha-256": "55da61597846676b88ed4d17caf1526aa497c6eb9cf8e2c8512a19ad97120773"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/incoming/request.hpp"
+          },
+          "hashes": {
+            "sha-256": "ad19f655fe6696aac9fe8831deda72d44733a6b253f5e7f37122a3b9e511370b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/incoming/bodydecoder.hpp"
+          },
+          "hashes": {
+            "sha-256": "2b63061a46127ebe7f1db088174b3aaf69db2df480f8179c4fb375ebdf33a4fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/url/mapping/pattern.hpp"
+          },
+          "hashes": {
+            "sha-256": "22841e8cd6d14161a320f350abccc4cf8e28752e33033fcf37d98107dfc39ee4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/network/url.hpp"
+          },
+          "hashes": {
+            "sha-256": "7c93adb16fd5de29c72b1e7d7d86cd68b9b3da507bede87fdccdd8db8dab101c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/handler/authorizationhandler.hpp"
+          },
+          "hashes": {
+            "sha-256": "c7751ee2eb50b8ad6db5821e8b09ac21e6704a3f8d5237718020d3c466dc70aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/handler/errorhandler.hpp"
+          },
+          "hashes": {
+            "sha-256": "6de8e4e13d6f24904d87ed6b0a81c3ea6a95bb3c9458232173f9bb45a0042bc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/incoming/response.hpp"
+          },
+          "hashes": {
+            "sha-256": "2a276db7c7bbdfda59a035253478752ee758e6f7e1cbe0f8a10fa7fb79e6d9cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/outgoing/request.hpp"
+          },
+          "hashes": {
+            "sha-256": "011cd1931423461e53ec8e22089b0ef7574c5d8e87f7658e18ca40dc89b007ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/utils/conversionutils.hpp"
+          },
+          "hashes": {
+            "sha-256": "5c8b622f65b6d81030b519af9fc338c0fe72097f6eb445b0ce52ddd0f8e8b944"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/macro/component.hpp"
+          },
+          "hashes": {
+            "sha-256": "59ea1a9d37be1cad7b0ea55353eb2c03d55447aaf0187f8a85dfc7e41fa88958"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/stream/filestream.hpp"
+          },
+          "hashes": {
+            "sha-256": "05d382e145457105f9d5d561d9da7673b323a5f8584abc9e9ebba576bdd7c3e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/apicontroller_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "c68ad31a3d8538a43e54925758ec523e224526bd02952b2f21545c15c394e33f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/base_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "e19885cf5e0030d9a0edf5a41d79b3e202b24d83008650dd768956bae081139e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/auth_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "4b21412df1f27a3e2861d786da912424c251d9beb0af5b93bc67b23a2a247baf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/bundle_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "04a8fb0b66b8c5e4c474d7c1fb006858be6e28f48fa7b05ae747c5c9b98dba69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/cors_define.hpp"
+          },
+          "hashes": {
+            "sha-256": "ecbe201b5f8953b3504ddded41be714a9ba671330f9d7bb0d4ddfeeb26b3daae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/apicontroller_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "39ab88b902f3f264420ebceaf9e6fd55005cca3f287a0a0057a7ad1719cb6914"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/base_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "d8c9a20a2e040138214304088c305646b53dbdc44b661801cb761937a10e80b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/auth_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "e530689b5e76af46a8eab427f42c29c10fe5086d2ba877d3030a092ce7e34f8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/bundle_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "010af1f0f4c9cdc8a7bcbb8fc7b7824f0e13b408e544135542124c163b912ab5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/codegen/api_controller/cors_undef.hpp"
+          },
+          "hashes": {
+            "sha-256": "c2eb590c7416ad80d05a906e68a01f3bedf7871ddeab08946cc935ece72dfdeb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pamerg01/desktop/mod/build/apiprinter/apiprinter/apiprinter/appcomponent.hpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "73ea5405e9bbf38032adcffcddad140bcdf120e1d0a8355b0a4529771c70d6c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/httpconnectionhandler.hpp"
+          },
+          "hashes": {
+            "sha-256": "a3dc4903fe59f37b8b49a59285ce56401271b8fe1d6f1a02a2c49c6b62c08167"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/httpprocessor.hpp"
+          },
+          "hashes": {
+            "sha-256": "6a2b46af00b6862529d464803e451108eea5684c068997d02c42aa3f4894ce14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/httprouter.hpp"
+          },
+          "hashes": {
+            "sha-256": "0db45c1b85d5d45ee05dde3fa98363e22fd95bbc2c7ac5b711f0790133256372"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/url/mapping/router.hpp"
+          },
+          "hashes": {
+            "sha-256": "6a688fd891a622ab36f2faac7f01790b3a0eadfe581805fc5f1605485fb8c0eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/interceptor/requestinterceptor.hpp"
+          },
+          "hashes": {
+            "sha-256": "a8090385705d9a67d17d7395daf8950cccd351c20ab83e1bd60873ec8acfa01c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/server/interceptor/responseinterceptor.hpp"
+          },
+          "hashes": {
+            "sha-256": "437e9761b586b7cfbe8c501e20a59492d62d64d4972406fe010dbb3c601cd242"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/encoding/providercollection.hpp"
+          },
+          "hashes": {
+            "sha-256": "eebb34f5e7181acbc1554dfb46aa0d13cd242a80bcd48b461286e81fc5468911"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/incoming/requestheadersreader.hpp"
+          },
+          "hashes": {
+            "sha-256": "62c2c1dba6be9dfd8556232e7d335e088ecb99b8f79021562413e47f74566c07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/stream/streambufferedproxy.hpp"
+          },
+          "hashes": {
+            "sha-256": "0854c7a77a1b0d00bd8c3712298728400a923476e38ab4d40e0084a2da366c3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/data/buffer/fifobuffer.hpp"
+          },
+          "hashes": {
+            "sha-256": "6792a2d4096724b88eeedcad1258dc143b388eefaedfc60c9ea4185aa1493544"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/web/protocol/http/utils/communicationutils.hpp"
+          },
+          "hashes": {
+            "sha-256": "a1dac09da09d1940e4ca90cbe8933029c23be1ec22cd178c54db9d6c9da54e6a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/async/processor.hpp"
+          },
+          "hashes": {
+            "sha-256": "98f6ea0ca69a545558a4f7f66c06fd83523eee1919346b44545315cd33a144f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/core/async/coroutinewaitlist.hpp"
+          },
+          "hashes": {
+            "sha-256": "e8fa1fb0f17ceb653fc3a7ed625527ba752a4f96ecdd6ce2cc7a42d19a8375ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/network/tcp/server/connectionprovider.hpp"
+          },
+          "hashes": {
+            "sha-256": "002cf78476edbd9c6906fbc07ccfab3f39a305d220946de685a228f9c412cd69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/network/address.hpp"
+          },
+          "hashes": {
+            "sha-256": "826a77ee662aac4d29eaa4bfbd637f48f343fa19f823a4813021f47bc62c9ac7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oatpp/include/oatpp-1.3.0/oatpp/oatpp/network/connectionprovider.hpp"
+          },
+          "hashes": {
+            "sha-256": "e7f3c0eceacf558a84b516570fd665dea34e3f2f1e673c910b1f720ea044fc15"
+          }
+        }
+      ]
+    }
+  ]
+}
